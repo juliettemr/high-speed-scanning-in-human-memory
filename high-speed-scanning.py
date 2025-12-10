@@ -4,13 +4,13 @@ from expyriment import design, control, stimuli
 experiment = design.Experiment(name="High speed scanning")
 control.initialize(experiment)
 
-training_length = 24
-test_length = 144
+training_length = 4 #24 for the experience
+test_length = 10 #144 for the experience
 training_results = []
 test_results = []
 
-training_length2 = 60
-test_length2 = 120
+training_length2 = 6 #60 for the experience
+test_length2 = 12 #120 for the experience
 training_results2_1 = []
 test_results2_1 = []
 training_results2_2 = []
