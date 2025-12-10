@@ -134,7 +134,7 @@ experiment.keyboard.wait()
 stimuli.TextLine("During the test, your accuracy was {}% and you took on average {}ms to respond.".format(test_correctness, test_timing)).present()
 experiment.keyboard.wait()
 
-stimuli.TextLine("During this second experiment, you will have to remember you will have to remember a set of digits and determine if the digit displayed on the screen was in the set or (press f) or not (press j).").present()
+stimuli.TextLine("During this second experiment, you will have to remember a set of digits and determine if the digit displayed on the screen was in the set (press f) or not (press j).").present()
 experiment.keyboard.wait()
 
 stimuli.TextLine("Here is a warm-up, ready?").present()
